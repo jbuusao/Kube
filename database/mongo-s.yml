@@ -5,7 +5,7 @@ metadata:
 spec:
   selector:
     app: mongo
-  type: NodePort
+  type: LoadBalancer
   ports:
   - targetPort: 27017
     port: 27017
